@@ -4,6 +4,7 @@ In this repository, I have developed the entire server-side principal architectu
 
 ## Technologies used:
  1. Kafka.<img align="left" alt="kafka" width="26px" src="./images/kafka2.jpg" /><br>
+    - https://kafka.apache.org/quickstart
     - Pipelining logs from source to topics.
     - Topics are subscribed by consumer for real-time ml prediction and model training in parallel.
  2. TensorFlow.js.<img align="left" alt="tf" width="26px" src="./images/tfjslogo.png" /><br>

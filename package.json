@@ -2,6 +2,9 @@
   "name": "stock-market-prediction-app",
   "version": "1.0.0",
   "description": "Building a real-time data streaming ML application pipeline with Apache Kafka",
+  "engines": {
+    "node": "14.15.x"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,6 +26,6 @@
     "dotenv": "^8.2.0",
     "kafka-node": "5.0.0",
     "mongodb": "^3.6.3",
-    "socket.io": "^3.0.4",
+    "socket.io": "^3.0.4"
   }
 }
